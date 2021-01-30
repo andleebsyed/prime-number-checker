@@ -1,12 +1,14 @@
 body{
     /* background-image: url('images/background.jpg'); */
-    background-color: rgb(75, 69, 69);
+    background-color: rgb(165, 162, 162);
 }
 .header{
     background-color: seagreen;
-    border-radius :1rem ;
+    border-top-left-radius :1rem ;
+    border-bottom-right-radius: 1rem;
     text-align: center;
     padding: 1rem;
+    color:black;
     margin-bottom: 2rem;
 
 }
@@ -15,10 +17,15 @@ body{
     max-width: 500px;
     margin: auto;
 }
-
+.input-text{
+    border-radius: 1rem;
+    text-align: center;
+}
 .output-div{
     padding: 1rem;
     margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     height: 30px;
     font-weight: bold;
     border-radius: 1rem;
@@ -45,7 +52,9 @@ margin-bottom: 6rem;
 .footer{
     text-align: center;
     font-weight: bold;
-    border-bottom-left-radius: 1rem;
+    /* border-bottom-left-radius: 1rem; */
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     position: fixed;
     bottom: 0px;
     width: 100%;
