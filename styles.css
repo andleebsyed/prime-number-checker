@@ -74,5 +74,5 @@ margin-bottom: 6rem;
 .wrapper {
     min-height: 100%;
     position: relative;
-  padding-bottom:220px; /* footer's height */
+  padding-bottom:240px; /* footer's height */
 }
