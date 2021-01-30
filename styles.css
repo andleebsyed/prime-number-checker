@@ -51,18 +51,14 @@ margin-bottom: 6rem;
 }
 
 .footer{
-    text-align: center;
-    font-weight: bold;
-    border-top-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    position: absolute;
-    bottom: 0px;
-    /* margin-top: 60px; */
-    /* margin-bottom: -40px; */
-    /* padding-bottom: 40px; */
     width: 100%;
     background-color: seagreen;
-    height: 140px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .list-item {
@@ -73,4 +69,10 @@ margin-bottom: 6rem;
 }
 .list-item a{
     text-decoration: none;
+}
+/* to keep footer at its position throughout */
+.wrapper {
+    min-height: 100%;
+    position: relative;
+  padding-bottom:220px; /* footer's height */
 }
