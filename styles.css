@@ -1,9 +1,13 @@
+body{
+    /* background-image: url('images/background.jpg'); */
+    background-color: rgb(75, 69, 69);
+}
 .header{
     background-color: seagreen;
     border-radius :1rem ;
     text-align: center;
     padding: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 
 }
 .main-section{
@@ -30,10 +34,12 @@
 }
 
 .btnClick{
+    margin-top: 2rem;
 padding: 1rem;
 font-weight: bold;
 background-color:seagreen;
 border-radius: 1rem;
+margin-bottom: 6rem;
 }
 
 .footer{
